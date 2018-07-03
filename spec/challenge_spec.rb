@@ -16,11 +16,11 @@ describe 'factorial' do
   end
 
   it 'takes an integer n and returns the value of n!' do
-    expect(factorial(9)).to eq 362_880
+    expect(factorial(9)).to eq 362880
   end
 
   it 'takes an integer n and returns the value of n!' do
-    expect(factorial(15)).to eq 1_307_674_368_000
+    expect(factorial(15)).to eq 1307674368000
   end
 end
 
